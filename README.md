@@ -1,4 +1,4 @@
-# sidebar_animation_drawer
+# Animated Drawer
 
 A new Flutter application.
 

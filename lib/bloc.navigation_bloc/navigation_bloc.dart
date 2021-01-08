@@ -21,7 +21,7 @@ abstract class NavigationStates {
 
 class NavigationBloc extends Bloc<NavigationEvents, NavigationStates> {
   @override
-  NavigationStates get initialState => MyAccountsPage();
+  NavigationStates get initialState => HomePage();
 
   @override
   Stream<NavigationStates> mapEventToState(NavigationEvents event) async* {

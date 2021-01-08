@@ -18,14 +18,14 @@ class MenuItem extends StatelessWidget {
             Icon(
               icon,
               color: Colors.white,
-              size: 28,
+              size: 22,
             ),
             SizedBox(
               width: 20,
             ),
             Text(
               title,
-              style: TextStyle(fontWeight: FontWeight.w300, fontSize: 26, color: Colors.white),
+              style: TextStyle(fontWeight: FontWeight.w300, fontSize: 21, color: Colors.white),
             )
           ],
         ),

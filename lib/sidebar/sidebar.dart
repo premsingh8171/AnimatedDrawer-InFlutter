@@ -74,21 +74,21 @@ class _SideBarState extends State<SideBar>
                   child: Column(
                     children: <Widget>[
                       SizedBox(
-                        height: 60,
+                        height: 70,
                       ),
                       ListTile(
                         title: Text(
                           "Prem Singh",
                           style: TextStyle(
                               color: Colors.white,
-                              fontSize: 28,
+                              fontSize: 21,
                               fontWeight: FontWeight.w800),
                         ),
                         subtitle: Text(
                           "premsingh8171@gmail.com",
                           style: TextStyle(
                             color: Color(0xFFFFFFFF),
-                            fontSize: 18,
+                            fontSize: 14,
                           ),
                         ),
                         leading: CircleAvatar(
